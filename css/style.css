@@ -234,10 +234,10 @@ body {
     .items {
         margin: 0 auto;
         margin-top: 10em;
-        margin-bottom: 2vh;
         transform: translate(-50%, -50%);
         user-select: none;
       }
+
       
       .items .item {
         position: absolute;
@@ -329,7 +329,7 @@ body {
 
 /* FOOTER */
 footer{
-    background:#ff4040;
+    background:#cccccc;
     bottom: 0;
     margin-top: 3em;
 }
@@ -337,12 +337,24 @@ footer{
     display: flex;
 	align-items: center;
 	justify-content: center;
+    font-family: 'Lobster';
+    font-weight: bold;
+    font-size: 3em;
+    color: #ff4040;
 }
 
 .footer-region{
     display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.footer-region-list {
+    list-style: none;
+    font-size: 1.2em;
+    font-family: 'Roboto';
+}
+.footer-region-list li {
+    margin-bottom: 3px;
 }
 
 

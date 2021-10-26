@@ -24,8 +24,54 @@
             
         </div>
         <!-- FIN DU MENU FIX -->
+        
     </header>
 
     <body>
+        <!-- BARRE DE RECHERCHE -->
+        <div id="barreRecherche">
+            <div class="barre1">
+                <form id="recherche">
+                    <button  id="choix" type="button"  value="on/off" ><img class="fleche" src="asset/fleche.png" alt="Defilement"></button>
+                    <input class="input-recherche" type="search" name="s" placeholder="Indiquez votre recherche" required >
+                    <button class="loupe" type="submit" value="Rechercher"><img class="search " src="asset/loupe.png" alt="BarreDeRecherche"></button>
+            </div>
+            <div id="bar">
+                <button type="button" class="choice" name="SP" >Sans Porc</button>
+                <button  type="button" class="choice" name="SG" >Sans Glutène</button>
+                <button  type="button" class="choice" name="SL" >Sans Lactose</button>
+                <button  type="button" class="choice" name="SA" >Sans Arrachide</button>
+                <button  type="button" class="choice" name="VG" >Végétarien</button>
+                <button  type="button" class="choice" name="VT" >Végétalien</button>
+                </form>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+        <!-- FIN BARRE DE RECHERCHE -->
+        
+        <div class="middle">
+            <div class="recette-box">
+                <div class="recette-container">
+                    <div class="recette-img">
+                        <img class="recette-img-shape" src="./asset/exemple/tarte.jpg" alt="" />
+                    </div>
+                    <div class="recette-info">
+                        <div class="recette-title">
+                            Tarte au sucre
+                        </div>
+                        <div class="recette-desc">
+                            Marie-Louise Thibaut et son mari reprennent 
+		                    l’hostellerie du Vieux Pérouges en 1912. Marie-Louise 
+		                    reprend alors une ancienne recette locale et l’adapte, 
+		                    et crée ainsi la galette au sucre de Pérouges. 
+		                    Cette préparation était à l’origine préparée 
+		                    exclusivement lors des vendredis maigres
+                            
+                        </div>
+                        <div class="recette-stick"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
