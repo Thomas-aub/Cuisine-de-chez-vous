@@ -173,13 +173,12 @@ body {
 }
 
 #bar{
-    margin-top: 4.7em;
+    margin-top: 0.7em;
     display: none;
     border-radius: 15px;
     flex-wrap: wrap;
     align-content: center;
     background: #e9e3e3;
-    position: absolute;
 }
 
 .choice{
@@ -220,7 +219,7 @@ form > button,form > input{
 /* RECETTE BOX */
 
 .recette-box {
-    margin-top: 2%;
+    margin-top: 1em;
     width: 100%;
     box-sizing: border-box;
 
